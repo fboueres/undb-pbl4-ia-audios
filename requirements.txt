@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+librosa
+scikit-learn
+tensorflow
+kaggle
+python-dotenv
