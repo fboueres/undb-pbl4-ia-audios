@@ -84,6 +84,11 @@ def main():
         class_weight=class_weights
     )
 
+    np.save(
+        OUTPUTS_DIR / "history.npy",
+        history.history
+    )
+
     loss, accuracy = model.evaluate(X_test, y_test)
 
     print(f"Loss teste: {loss:.4f}")
